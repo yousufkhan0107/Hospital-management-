@@ -28,8 +28,9 @@ const Example = props => {
       <Navbar color="light" light expand="md">
         <NavbarBrand>
           <img style={{ width: "30%" }} alt="Logo" src={Medilogo} />
-          DMRD
+          Yousuf Khan Hospital Management
         </NavbarBrand>
+        <br/>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
