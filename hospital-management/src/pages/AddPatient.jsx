@@ -85,13 +85,13 @@ class AddPatient extends Component {
         {/* Write code here to create fields and input labels for name,email,dob,mobileno and location  */}
         <div className="col" style={{ backgroundColor: "lavender" }}>
           {/*Write code here to create uname, email, dob, location, mobileno labels and inputs */}
-          <Label>Unmae</Label>
+          <Label>Username</Label>
           <Input
             type="text"
             onChange={this.handleChange}
             name="name"
             id="exampleEmail"
-            placeholder="Enter Unmae"
+            placeholder="Enter Username"
           />
           <Label>Email</Label>
           <Input
@@ -126,7 +126,7 @@ class AddPatient extends Component {
             onChange={this.handleChange}
             name="mobile"
             id="mobileNo"
-            placeholder="Enter mobileno"
+            placeholder="Enter mobile number"
           />
 
           <div className="FormField">

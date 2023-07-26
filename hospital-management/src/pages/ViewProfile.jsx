@@ -25,7 +25,7 @@ class ViewProfile extends Component {
         <NavBar />
         <div>
           <h3 style={{ textAlign: "center", paddingBottom: "10px" }}>
-            Here are your details
+            User details
           </h3>
         </div>
 

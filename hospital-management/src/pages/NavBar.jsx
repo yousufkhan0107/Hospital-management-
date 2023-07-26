@@ -28,7 +28,15 @@ const Example = props => {
       <Navbar color="light" light expand="md">
         <NavbarBrand>
           <img style={{ width: "30%" }} alt="Logo" src={Medilogo} />
-          Yousuf Khan Hospital Management
+          <div
+            style={{
+              fontSize: "1.25rem",
+              fontWeight: "bold",
+              color: "black",
+            }}
+          >
+          NEW LIFE Hospital Management
+          </div>
         </NavbarBrand>
         <br/>
         <NavbarToggler onClick={toggle} />

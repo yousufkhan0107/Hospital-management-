@@ -37,7 +37,7 @@ class AllPatients extends Component {
     return (
       <div style={{ height: "100%" }}>
         <NavBar />
-        <div className=" col" style={{ backgroundColor: "lavender" }}>
+        <div className=" col" style={{ backgroundColor: "lavnder" }}>
           {patientsList.length === 0 ? (
             <h1 style={{ textAlign: "center", flexGrow: "1" }}>
               No Patients Found

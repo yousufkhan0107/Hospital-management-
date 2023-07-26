@@ -37,7 +37,11 @@ class ViewPatient extends Component {
           </p>
         </div>
         <div className="FormCenter">
-          <form onSubmit={this.handleSubmit} className="FormFields">
+          <form onSubmit={this.handleSubmit} 
+            style={{
+              background: "#b7ebc5"
+            }}
+          >
             {/* Write code here to create fields for name, disease,appdate, slot and mobile*/}
             <Label>Name:--</Label>
             {patient.name}
