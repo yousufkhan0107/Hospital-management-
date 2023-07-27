@@ -82,14 +82,17 @@ class SignUpForm extends Component {
           </div>
 
           <div>
-            {/*Write code here to create uname, email, dob, location, mobileno labels and inputs */}
-            <Label for="exampleEmail">Unmae</Label>
+            {/*Write code here to create user name, email, dob, location, mobileno labels and inputs */}
+            <Label for="exampleEmail">User name</Label>
             <Input
               type="text"
               onChange={this.handleChange}
               name="uname"
               id="exampleEmail"
-              placeholder="Enter Unmae"
+              placeholder="Enter Unmaecd Hospital-management-
+cd hospital-management
+npm i
+npm start"
             />
             <Label for="exampleEmail">Email</Label>
             <Input

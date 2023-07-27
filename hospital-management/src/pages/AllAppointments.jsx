@@ -65,7 +65,8 @@ class AllAppointments extends Component {
               <ListGroup horizontal>
                 {appointmentsList.map((appointment, index) => (
                   /*Write code here to list the appointments along with the buttons*/
-                  <div>
+                  <div key={index} 
+                  >
                     <ListGroupItem>{appointment.name}</ListGroupItem>
                     <ListGroupItem>{appointment.slot}</ListGroupItem>
                     <ListGroupItem>

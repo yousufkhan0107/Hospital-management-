@@ -66,12 +66,13 @@ class BookAppointment extends Component {
 
   canBeSubmitted() {
     const { name, disease, appdate, slot, description } = this.state;
-    return (
-      name.length > 4 &&
-      disease.length > 0 &&
-      appdate.length > 0 &&
-      description.length > 0
-    );
+    return true 
+    // (
+      // name.length > 4 &&
+      // disease.length > 0 &&
+      // appdate.length > 0 &&
+      // description.length > 0
+    // );
   }
   render() {
     const names = patientDetailsData.getName();
